@@ -12,8 +12,14 @@
       text-transform: uppercase;
       border-bottom: 2px solid #00709e;
       margin-bottom: 1rem; }
-  .newFeed .container .newFeed_flexBox .lineBottom .row {
-    margin: 0; }
+    .newFeed .container .newFeed_flexBox .newFeed_flexBox_boxCard .lineBottom .slick-list.draggable {
+      margin: 0 -15px !important; }
+      .newFeed .container .newFeed_flexBox .newFeed_flexBox_boxCard .lineBottom .slick-list.draggable .slick-slide {
+        padding: 0 15px !important; }
+  .newFeed .container .newFeed_flexBox .lineBottom {
+    overflow: hidden; }
+    .newFeed .container .newFeed_flexBox .lineBottom .row {
+      margin: 0; }
   .newFeed .container .newFeed_flexBox .slick {
     display: flex; }
     .newFeed .container .newFeed_flexBox .slick .card {

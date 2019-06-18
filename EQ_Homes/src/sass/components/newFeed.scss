@@ -15,8 +15,17 @@
                     border-bottom: 2px solid #00709e;    
                     margin-bottom: 1rem;
                 }
+                .lineBottom{
+                    .slick-list.draggable{
+                        margin: 0 -15px !important;
+                        .slick-slide{
+                            padding: 0 15px !important;
+                        }
+                    }
+                } 
             }
             .lineBottom{
+                overflow: hidden;
                .row{
                    margin: 0;
                }

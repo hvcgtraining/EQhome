@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 html, body {
   font-size: 62.5%; }
 
@@ -8,7 +8,7 @@ html, body {
   box-sizing: border-box; }
 
 body, td, th, input, button {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 300;
   font-size: 1.8rem;
@@ -1008,8 +1008,14 @@ input[type=file] {
       text-transform: uppercase;
       border-bottom: 2px solid #00709e;
       margin-bottom: 1rem; }
-  .newFeed .container .newFeed_flexBox .lineBottom .row {
-    margin: 0; }
+    .newFeed .container .newFeed_flexBox .newFeed_flexBox_boxCard .lineBottom .slick-list.draggable {
+      margin: 0 -15px !important; }
+      .newFeed .container .newFeed_flexBox .newFeed_flexBox_boxCard .lineBottom .slick-list.draggable .slick-slide {
+        padding: 0 15px !important; }
+  .newFeed .container .newFeed_flexBox .lineBottom {
+    overflow: hidden; }
+    .newFeed .container .newFeed_flexBox .lineBottom .row {
+      margin: 0; }
   .newFeed .container .newFeed_flexBox .slick {
     display: flex; }
     .newFeed .container .newFeed_flexBox .slick .card {
