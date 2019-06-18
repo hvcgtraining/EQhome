@@ -16,6 +16,12 @@
     .fix {
         margin: 0 !important;
     }
+    .form-group.row{
+        .form-control{
+            margin: .5rem 0;
+            font-size: 1.3rem;
+        }
+    }
 
     .sidebar__widget {
         margin-bottom: 1.5rem;
@@ -97,13 +103,13 @@
                 font-size: .1rem;
             }
 
-            .col-xl-4.per:after {
-                content: '%';
-                position: absolute;
-                right: 0px;
-                top: 2px;
-                font-size: 1.3rem;
-            }
+            // .col-xl-4.per:after {
+            //     content: '%';
+            //     position: absolute;
+            //     right: 0px;
+            //     top: 2px;
+            //     font-size: 1.3rem;
+            // }
         }
     }
 
@@ -178,6 +184,6 @@
         display: none;
     }
     .sidebar-right{
-        max-width: 320px !important;
+        // max-width: 320px !important;
     }
 }

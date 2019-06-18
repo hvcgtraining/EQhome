@@ -6,6 +6,8 @@
   padding: 3rem 0 5rem; }
   #banner .nav {
     flex-wrap: nowrap !important; }
+  #banner .nav-tabs .nav-item {
+    margin-right: 1px; }
   #banner .nav-tabs .nav-link {
     border: none; }
 
@@ -80,5 +82,5 @@
     padding-left: 0;
     padding-right: 0; }
     #banner .nav-tabs .nav-link {
-      padding: 1rem .5rem !important;
+      padding: 1rem 1rem !important;
       font-size: 1.2rem; } }
