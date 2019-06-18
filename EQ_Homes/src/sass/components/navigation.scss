@@ -37,12 +37,13 @@
         display: block;
         .nav__list{
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             list-style-type: none;
             margin: 0;
             // border: 1px solid blue;
             background: rgb(14,49,76);
             width: 100%;
+            transition: all .3s ease;
             // max-width: 1140px;
             .active{
                 .nav__item{
@@ -61,17 +62,15 @@
                     display: block;
                     text-decoration: none;
                     color: white;
-                    border-left:0.5px solid #fff;
-                    border-right:0.5px solid #fff;
                     background: rgb(14,49,76);
-                    padding: 1rem 1rem;
-                    min-width: 12rem;
-
+                    padding: 1rem 2rem;
                     text-align: center;
+                    transition: all .3s ease;
                     &:hover{
                         background: rgb(0,112,158);
                     }
                 }
+                
                 .nav-sub__list{
                     z-index: 99;
                     position: absolute;
@@ -95,6 +94,16 @@
                                 background: rgb(0,112,158);
                             }
                         }
+                    }
+                }
+            }
+            &:hover{
+                .active{
+                    .nav__link{
+                        background-color:rgb(14,49,76);
+                            &:hover{
+                                background: rgb(0,112,158);
+                            }
                     }
                 }
             }

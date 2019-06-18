@@ -9,24 +9,37 @@
       font-weight: bold;
       padding: 0;
       width: 100%;
-      text-transform: uppercase; }
-  .newFeed .container .newFeed_flexBox .lineBottom {
-    border-bottom: 2px solid #00709e;
-    margin-bottom: 1rem; }
+      text-transform: uppercase;
+      border-bottom: 2px solid #00709e;
+      margin-bottom: 1rem; }
+  .newFeed .container .newFeed_flexBox .lineBottom .row {
+    margin: 0; }
   .newFeed .container .newFeed_flexBox .slick {
     display: flex; }
     .newFeed .container .newFeed_flexBox .slick .card {
       margin-bottom: 1rem;
       display: flex;
       flex-direction: row; }
+      .newFeed .container .newFeed_flexBox .slick .card .img-block {
+        position: relative; }
+        .newFeed .container .newFeed_flexBox .slick .card .img-block:before {
+          content: '';
+          display: block;
+          padding-top: 45%; }
+        .newFeed .container .newFeed_flexBox .slick .card .img-block img {
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          position: absolute; }
       .newFeed .container .newFeed_flexBox .slick .card .images-carousel {
         width: 50%; }
       .newFeed .container .newFeed_flexBox .slick .card .flied-card {
         cursor: pointer;
         margin: 30px 0 30px 4%; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card p {
-          font-size: 1rem;
-          color: black; }
+          font-size: 1.6rem;
+          color: #666666; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card:hover {
           text-decoration: underline; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card .card-title {
@@ -69,15 +82,15 @@
     .newFeed .slick-dots .slick-active button {
       background-color: #50b7d8; }
 
-@media screen and (min-width: 768px) {
-  .newFeed .container .newFeed_flexBox .slick .card .images-carousel {
+@media screen and (max-width: 768px) {
+  .newFeed .container .newFeed_flexBox .slick .images-carousel {
     width: 100%; }
-  .newFeed .container .newFeed_flexBox .slick .card .flied-card p {
-    font-size: 1.6rem; } }
+  .newFeed .container .newFeed_flexBox .slick .flied-card p {
+    font-size: 1.6rem !important; } }
 
 @media screen and (max-width: 992px) {
-  .newFeed .container .newFeed_flexBox .slick .card {
-    margin: 2rem 10rem; } }
+  .newFeed .container .newFeed_flexBox .slick .card .img-block:before {
+    padding-top: 60% !important; } }
 
 @media screen and (max-width: 576px) {
   .newFeed .container .newFeed_flexBox .slick .card {
