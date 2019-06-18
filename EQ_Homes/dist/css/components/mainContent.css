@@ -36,11 +36,11 @@ body {
       border-bottom: 5rem solid #0977a5;
       border-right: 2rem solid transparent;
       top: -5px;
-      right: -20px; }
+      right: -19px; }
 
 .wrapper-content {
   line-height: 1.5rem;
-  padding: 0 1.5rem; }
+  padding: 0 .5rem; }
   .wrapper-content .box-content {
     border: 1px solid #e2e2e2;
     transition: all .5s ease; }
@@ -129,7 +129,7 @@ body {
 
 @media only screen and (min-width: 360px) {
   .slide-content .slick-list {
-    margin: 0 -15px !important; }
+    margin: 0 -5px !important; }
   .slide-content .wrapper-content:focus {
     outline: none; } }
 

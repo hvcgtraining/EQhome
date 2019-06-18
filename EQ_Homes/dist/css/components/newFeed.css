@@ -18,14 +18,17 @@
     display: flex; }
     .newFeed .container .newFeed_flexBox .slick .card {
       margin-bottom: 1rem;
-      display: flex;
+      display: flex !important;
       flex-direction: row; }
       .newFeed .container .newFeed_flexBox .slick .card .img-block {
-        position: relative; }
+        position: relative;
+        width: 250px;
+        display: inline-block;
+        vertical-align: middle; }
         .newFeed .container .newFeed_flexBox .slick .card .img-block:before {
           content: '';
           display: block;
-          padding-top: 45%; }
+          padding-top: 80%; }
         .newFeed .container .newFeed_flexBox .slick .card .img-block img {
           top: 0;
           left: 0;
@@ -36,12 +39,20 @@
         width: 50%; }
       .newFeed .container .newFeed_flexBox .slick .card .flied-card {
         cursor: pointer;
-        padding: .5rem 1.5rem; }
+        padding: .5rem 1.5rem;
+        display: inline-block;
+        width: calc(100% - 250px);
+        vertical-align: middle; }
+        .newFeed .container .newFeed_flexBox .slick .card .flied-card a {
+          display: block;
+          font-size: 1.4rem;
+          color: #666666;
+          text-decoration: none; }
+          .newFeed .container .newFeed_flexBox .slick .card .flied-card a:hover {
+            color: #00709e; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card p {
-          font-size: 1.6rem;
+          font-size: 1.4rem;
           color: #666666; }
-        .newFeed .container .newFeed_flexBox .slick .card .flied-card:hover {
-          text-decoration: underline; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card .card-title {
           font-weight: bold;
           font-size: 1.8rem; }
@@ -53,7 +64,7 @@
   .newFeed .slick-dots {
     position: absolute;
     bottom: -15px;
-    left: -50%;
+    left: 0;
     display: block;
     width: 100%;
     padding: 0;
@@ -82,6 +93,43 @@
         border-radius: 50%; }
     .newFeed .slick-dots .slick-active button {
       background-color: #50b7d8; }
+
+@media screen and (max-width: 480px) {
+  .newFeed {
+    background-color: #ebebeb; }
+    .newFeed .container .newFeed_flexBox .newfeed-left-top, .newFeed .container .newFeed_flexBox .newfeed-right-top {
+      display: none !important; }
+    .newFeed .container .newFeed_flexBox .slick {
+      display: flex; }
+      .newFeed .container .newFeed_flexBox .slick .card {
+        display: inline-block !important; }
+        .newFeed .container .newFeed_flexBox .slick .card .img-block {
+          position: relative;
+          width: 100%;
+          display: block; }
+          .newFeed .container .newFeed_flexBox .slick .card .img-block:before {
+            content: '';
+            display: block;
+            padding-top: 80%; }
+          .newFeed .container .newFeed_flexBox .slick .card .img-block img {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute; }
+        .newFeed .container .newFeed_flexBox .slick .card .flied-card {
+          cursor: pointer;
+          padding: .5rem 1.5rem;
+          display: inline-block;
+          width: 100%;
+          vertical-align: middle; }
+          .newFeed .container .newFeed_flexBox .slick .card .flied-card a {
+            display: block;
+            font-size: 1.4rem;
+            color: #666666;
+            text-decoration: none; }
+            .newFeed .container .newFeed_flexBox .slick .card .flied-card a:hover {
+              color: #00709e; } }
 
 @media screen and (max-width: 768px) {
   .newFeed .container .newFeed_flexBox .slick .images-carousel {

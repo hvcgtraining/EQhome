@@ -6,6 +6,8 @@
   padding: 3rem 0 5rem; }
   #banner .nav {
     flex-wrap: nowrap !important; }
+  #banner .nav-tabs .nav-link {
+    border: none; }
 
 #wrapNavBar {
   background-color: rgba(94, 184, 214, 0.8);

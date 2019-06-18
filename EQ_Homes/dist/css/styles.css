@@ -516,6 +516,8 @@ body, td, th, input, button {
   padding: 3rem 0 5rem; }
   #banner .nav {
     flex-wrap: nowrap !important; }
+  #banner .nav-tabs .nav-link {
+    border: none; }
 
 #wrapNavBar {
   background-color: rgba(94, 184, 214, 0.8);
@@ -629,11 +631,11 @@ body {
       border-bottom: 5rem solid #0977a5;
       border-right: 2rem solid transparent;
       top: -5px;
-      right: -20px; }
+      right: -19px; }
 
 .wrapper-content {
   line-height: 1.5rem;
-  padding: 0 1.5rem; }
+  padding: 0 .5rem; }
   .wrapper-content .box-content {
     border: 1px solid #e2e2e2;
     transition: all .5s ease; }
@@ -722,7 +724,7 @@ body {
 
 @media only screen and (min-width: 360px) {
   .slide-content .slick-list {
-    margin: 0 -15px !important; }
+    margin: 0 -5px !important; }
   .slide-content .wrapper-content:focus {
     outline: none; } }
 
@@ -783,7 +785,7 @@ body {
       background: #00709e;
       padding: 1rem; }
     .sidebar-right .sidebar__widget .widget__content#table {
-      padding: 0; }
+      padding: 0 .5rem; }
     .sidebar-right .sidebar__widget .widget__content {
       padding: 1rem 1.5rem; }
       .sidebar-right .sidebar__widget .widget__content .nav-item.col-6 {
@@ -794,6 +796,8 @@ body {
           color: #68c073 !important; }
       .sidebar-right .sidebar__widget .widget__content .nav-tabs {
         border: none; }
+        .sidebar-right .sidebar__widget .widget__content .nav-tabs .nav-item:first-child .nav-link {
+          border-left: none; }
         .sidebar-right .sidebar__widget .widget__content .nav-tabs .nav-link {
           font-size: 1.2rem;
           text-transform: uppercase;
@@ -859,8 +863,6 @@ body {
 @media (max-width: 991px) {
   .banner-left {
     display: none; }
-  .sidebar-right {
-    width: 80% !important; }
   .banner-right {
     display: none; } }
 
@@ -868,7 +870,7 @@ body {
   .banner-left {
     display: none; }
   .sidebar-right {
-    width: 320px !important; } }
+    max-width: 320px !important; } }
 
 form {
   padding: 2rem 6rem; }
@@ -923,6 +925,20 @@ form {
       margin: 0 5px;
       padding: 0 10px;
       font-size: 14px; }
+
+@media (max-width: 480px) {
+  form {
+    padding: 2rem 2rem; }
+    form h3 {
+      color: red;
+      text-align: center; }
+    form .form-group-lh .info {
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      form .form-group-lh .info .input-if {
+        margin: 1.5rem .5rem; }
+      form .form-group-lh .info button {
+        margin: 0; } }
 
 #contact-form {
   font-family: sans-serif;
@@ -998,14 +1014,17 @@ input[type=file] {
     display: flex; }
     .newFeed .container .newFeed_flexBox .slick .card {
       margin-bottom: 1rem;
-      display: flex;
+      display: flex !important;
       flex-direction: row; }
       .newFeed .container .newFeed_flexBox .slick .card .img-block {
-        position: relative; }
+        position: relative;
+        width: 250px;
+        display: inline-block;
+        vertical-align: middle; }
         .newFeed .container .newFeed_flexBox .slick .card .img-block:before {
           content: '';
           display: block;
-          padding-top: 45%; }
+          padding-top: 80%; }
         .newFeed .container .newFeed_flexBox .slick .card .img-block img {
           top: 0;
           left: 0;
@@ -1016,12 +1035,20 @@ input[type=file] {
         width: 50%; }
       .newFeed .container .newFeed_flexBox .slick .card .flied-card {
         cursor: pointer;
-        padding: .5rem 1.5rem; }
+        padding: .5rem 1.5rem;
+        display: inline-block;
+        width: calc(100% - 250px);
+        vertical-align: middle; }
+        .newFeed .container .newFeed_flexBox .slick .card .flied-card a {
+          display: block;
+          font-size: 1.4rem;
+          color: #666666;
+          text-decoration: none; }
+          .newFeed .container .newFeed_flexBox .slick .card .flied-card a:hover {
+            color: #00709e; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card p {
-          font-size: 1.6rem;
+          font-size: 1.4rem;
           color: #666666; }
-        .newFeed .container .newFeed_flexBox .slick .card .flied-card:hover {
-          text-decoration: underline; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card .card-title {
           font-weight: bold;
           font-size: 1.8rem; }
@@ -1033,7 +1060,7 @@ input[type=file] {
   .newFeed .slick-dots {
     position: absolute;
     bottom: -15px;
-    left: -50%;
+    left: 0;
     display: block;
     width: 100%;
     padding: 0;
@@ -1062,6 +1089,43 @@ input[type=file] {
         border-radius: 50%; }
     .newFeed .slick-dots .slick-active button {
       background-color: #50b7d8; }
+
+@media screen and (max-width: 480px) {
+  .newFeed {
+    background-color: #ebebeb; }
+    .newFeed .container .newFeed_flexBox .newfeed-left-top, .newFeed .container .newFeed_flexBox .newfeed-right-top {
+      display: none !important; }
+    .newFeed .container .newFeed_flexBox .slick {
+      display: flex; }
+      .newFeed .container .newFeed_flexBox .slick .card {
+        display: inline-block !important; }
+        .newFeed .container .newFeed_flexBox .slick .card .img-block {
+          position: relative;
+          width: 100%;
+          display: block; }
+          .newFeed .container .newFeed_flexBox .slick .card .img-block:before {
+            content: '';
+            display: block;
+            padding-top: 80%; }
+          .newFeed .container .newFeed_flexBox .slick .card .img-block img {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute; }
+        .newFeed .container .newFeed_flexBox .slick .card .flied-card {
+          cursor: pointer;
+          padding: .5rem 1.5rem;
+          display: inline-block;
+          width: 100%;
+          vertical-align: middle; }
+          .newFeed .container .newFeed_flexBox .slick .card .flied-card a {
+            display: block;
+            font-size: 1.4rem;
+            color: #666666;
+            text-decoration: none; }
+            .newFeed .container .newFeed_flexBox .slick .card .flied-card a:hover {
+              color: #00709e; } }
 
 @media screen and (max-width: 768px) {
   .newFeed .container .newFeed_flexBox .slick .images-carousel {

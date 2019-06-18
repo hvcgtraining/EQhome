@@ -35,7 +35,6 @@ $('.slick.newfeed-left-top').slick({
     arrows: false,
     autoplay: false,
     speed: 2000,
-
   });
 
 

@@ -12,7 +12,7 @@
     width: 100%;
     margin: 0 auto;
     padding-left: 0 !important;
-
+    
     .fix {
         margin: 0 !important;
     }
@@ -35,7 +35,7 @@
         }
 
         .widget__content#table {
-            padding: 0;
+            padding: 0 .5rem;
         }
 
         .widget__content {
@@ -53,7 +53,13 @@
 
             .nav-tabs {
                 border: none;
-
+                .nav-item{
+                    &:first-child{
+                        .nav-link{
+                            border-left: none;
+                        }
+                    }
+                }
                 .nav-link {
                     font-size: 1.2rem;
                     text-transform: uppercase;
@@ -161,7 +167,7 @@
         display: none;
     }
     .sidebar-right{
-        width: 80% !important;
+        // width: 80% !important;
     }
     .banner-right{
         display: none;
@@ -172,6 +178,6 @@
         display: none;
     }
     .sidebar-right{
-        width: 320px !important;
+        max-width: 320px !important;
     }
 }
