@@ -4,7 +4,7 @@ $('.slick.newfeed-left-top').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     speed: 2000,
     asNavFor: '.slick.newfeed-left-bottom'
   });
@@ -14,7 +14,7 @@ $('.slick.newfeed-left-top').slick({
     asNavFor: '.slick.newfeed-left-top',
     dots: true,
     arrows:false,
-    autoplay: false,
+    autoplay: true,
     speed: 2000,
   });
 // Slick Card Right
@@ -23,7 +23,7 @@ $('.slick.newfeed-left-top').slick({
     slidesToScroll: 1,
     arrows: false,
     // fade: true,
-    autoplay: false,
+    autoplay: true,
     speed: 2000,
     asNavFor: '.slick.newfeed-right-bottom'
   });
@@ -33,7 +33,7 @@ $('.slick.newfeed-left-top').slick({
     asNavFor: '.slick.newfeed-right-top',
     dots: true,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     speed: 2000,
   });
 
