@@ -65,6 +65,9 @@ body {
       font-size: 16px;
       padding: 1.5rem 2rem;
       background: #fff; }
+      .wrapper-content .box-content .item-content .price {
+        color: red;
+        font-weight: 500; }
       .wrapper-content .box-content .item-content a {
         text-decoration: none;
         color: #666666;

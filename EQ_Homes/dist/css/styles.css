@@ -658,6 +658,9 @@ body {
       font-size: 16px;
       padding: 1.5rem 2rem;
       background: #fff; }
+      .wrapper-content .box-content .item-content .price {
+        color: red;
+        font-weight: 500; }
       .wrapper-content .box-content .item-content a {
         text-decoration: none;
         color: #666666;
@@ -755,6 +758,9 @@ body {
 @media only screen and (min-width: 1500px) {
   .banner-left, .banner-right {
     display: block; } }
+
+.sidebar-right-block .pd0 {
+  padding-bottom: 0 !important; }
 
 .sidebar-right {
   font-family: sans-serif;
@@ -1010,7 +1016,7 @@ input[type=file] {
         width: 50%; }
       .newFeed .container .newFeed_flexBox .slick .card .flied-card {
         cursor: pointer;
-        margin: 30px 0 30px 4%; }
+        padding: .5rem 1.5rem; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card p {
           font-size: 1.6rem;
           color: #666666; }
@@ -1027,6 +1033,7 @@ input[type=file] {
   .newFeed .slick-dots {
     position: absolute;
     bottom: -15px;
+    left: -50%;
     display: block;
     width: 100%;
     padding: 0;
@@ -1063,6 +1070,8 @@ input[type=file] {
     font-size: 1.6rem !important; } }
 
 @media screen and (max-width: 992px) {
+  .newFeed .slick-dots {
+    left: 0; }
   .newFeed .container .newFeed_flexBox .slick .card .img-block:before {
     padding-top: 60% !important; } }
 
