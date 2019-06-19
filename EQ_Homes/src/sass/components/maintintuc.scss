@@ -1,0 +1,105 @@
+.main-info{
+    background: white;
+    text-align: justify;
+    padding: 1.5rem;
+    .text-heading{
+        color: dodgerblue;
+        h2{
+            color: darkblue;
+        }
+    }
+    .title-main{
+        h2{
+            color: darkblue;
+        }
+    }
+    .img-info{
+        padding: 1rem 3rem;
+        img{
+            width: 100%;
+            display: block;
+        }
+        p{
+            font-style: italic;
+            font-size: 16px;
+            margin-top: .5rem;
+        }
+    }
+    .btn-info-ft{
+        padding: .5rem 1rem;
+        button{
+            color: white;
+            border-radius: 4px;
+            padding: .3rem 1.3rem;
+            border: none;
+            margin-right: 10px;
+        }
+    }
+    .form-info{
+        h1{
+            color: darkblue;
+        }
+        .commen{
+            font-style: italic;
+            color: dodgerblue;
+        }
+        label{
+            color: black;
+        }
+        textarea{
+            width: 100%;
+        }
+        input{
+            margin-left: 10px;
+        }
+        .mg-l{
+            margin-left: 6.6px;
+        }
+        button{
+            padding: .5rem 1.5rem;
+            background-color: #0977a5;
+            margin-top: .7rem;
+            border: none;
+            color: white;
+        }
+    }
+}
+
+.main-ft{
+    padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    h3{
+        color: white;
+        border-bottom: 2px solid #0977a5;
+        position: relative;
+        margin: 4rem 0 1rem;
+        span{
+            background-color: #0977a5;
+            padding: 1rem 2.5rem;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+    .img-text-info{
+        .head-img{
+            img{
+                max-height: 150px;
+            }
+            h2{
+                color: dodgerblue;
+                font-size: 18px;
+            }
+            p{
+                font-size: 16px;
+                margin: 5px 0;
+            }
+        }
+    }
+}
+.bg-b{
+    background: #0977a5;
+}
+.bg-or{
+    background: orange;
+}

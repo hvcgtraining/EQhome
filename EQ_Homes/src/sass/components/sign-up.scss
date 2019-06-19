@@ -1,4 +1,4 @@
-.sign-up{
+.sign-up,.sign-in{
     opacity: 0;
     pointer-events: none;
     position: absolute;
@@ -14,7 +14,7 @@
     form{
         width: 100%;
         padding: 0;
-        .form-sign-up{
+        .form-sign-up,.form-sign-in{
             background-color: #fff;
             padding: 1.5rem;
             text-align: center;
@@ -44,8 +44,11 @@
                             outline: none;
                         }
                     }
-                    .password{
+                    .password-50{
                         width: 50%;
+                    }
+                    .password-100{
+                        width: 100%;
                     }
                     .mg-l{
                         margin-left: 1rem;
