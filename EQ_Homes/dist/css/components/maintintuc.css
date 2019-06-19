@@ -59,14 +59,16 @@
       padding: 1rem 2.5rem;
       position: absolute;
       bottom: 0; }
-  .main-ft .img-text-info .head-img img {
-    max-height: 150px; }
-  .main-ft .img-text-info .head-img h2 {
-    color: dodgerblue;
-    font-size: 18px; }
-  .main-ft .img-text-info .head-img p {
-    font-size: 16px;
-    margin: 5px 0; }
+  .main-ft .img-text-info .head-img {
+    margin-bottom: 2rem !important; }
+    .main-ft .img-text-info .head-img img {
+      max-height: 150px; }
+    .main-ft .img-text-info .head-img h2 {
+      color: dodgerblue;
+      font-size: 18px; }
+    .main-ft .img-text-info .head-img p {
+      font-size: 16px;
+      margin: 15px 0; }
 
 .bg-b {
   background: #0977a5; }
