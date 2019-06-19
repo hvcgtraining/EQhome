@@ -129,11 +129,14 @@
             border: 1px solid #0e314c;
             transition: 0.3s;
             cursor: pointer;
+            // position: relative;
+
             .dropmenu{
-                font-size: 4rem;
+
+                font-size: 2rem;
                 text-align: center;
-                padding-top: 0.2rem;
-                padding-left: 0.4rem;
+                padding-top: 1.2rem;
+                padding-left: 1.2rem;
                 color: white;
             }            
             .nav__list{
