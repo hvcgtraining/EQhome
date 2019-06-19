@@ -1,0 +1,136 @@
+.bd-t{
+    border-top: 1px solid gray;
+    padding-top: 1rem;
+    span{
+        font-style: italic;
+    }
+}
+.table-box-da{
+    margin-top: 1rem;
+    h3{
+        color: #0977a5;
+        margin-bottom: 1rem;
+    }
+    table{
+        width: 100%;
+        tr:nth-child(odd){
+            background-color: rgb(16, 253, 253);
+        }
+        td{
+            padding: 3px 0 3px 3px;
+            color: #111;
+            &:first-child{
+                font-weight: bold;
+            }
+        }
+    }
+}
+.main-ft{
+    .head-img{
+        margin-bottom: 0;
+    }
+    .img-text-info{
+        margin-top: 2rem;
+        .img-tt{
+            max-height: 80px !important;
+            padding-right: 0;
+        }
+        h2{
+            font-weight: normal;
+        }
+        a{
+            text-decoration: none;
+        }
+        span{
+            text-align: left;
+        }
+        .text-info-t{
+            font-size: 14px !important;
+        }
+    }
+}
+
+
+#tab-bds{
+    padding: 2rem 2rem 0 2rem;
+    .text-white{
+        i{
+            margin-left: 1rem;
+        }
+    }
+}
+#tab-chothue{
+    padding: 2rem 2rem 0 2rem;
+    .text-white{
+        i{
+            margin-left: 1rem;
+        }
+    }
+}
+
+
+.nav-tabs-cbds{
+    display: flex;
+}
+
+.nav-tabs-cbds{
+    .nav-item-bds{
+        .active{
+            border: none !important;
+            background-color: #017aac !important;
+        }
+        width: 50%;
+    }
+}
+
+
+.btn-srch-nav-tabs{
+    padding: 0;
+}
+
+
+.chitiet {
+    background: #fff;
+    border-radius: none;
+
+    a {
+        margin-right: 1rem;
+        display: block;
+        background: #ccc !important;
+        color: #000 !important;
+        padding: 1rem 3rem;
+        text-decoration: none;
+    }
+
+    
+
+    .tab-content {
+        padding-top: 1rem;
+        #hinhanh{
+            .rentHome{
+                .slick{
+                    display: inline-block;
+
+                    .card{
+
+                    }
+                }
+                .rentHome-left-bottom{
+                    .card{
+                        display: block;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+
+                    
+                }
+            }
+    }
+    
+
+    .slick-arrow {
+        display: none !important;
+    }
+}

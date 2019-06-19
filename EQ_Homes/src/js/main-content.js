@@ -56,3 +56,24 @@ $('.slide-content').slick({
           }
       ]
 });
+
+
+
+$('.rentHome-left-top').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  asNavFor: '..rentHome-left-bottom',
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+$('.rentHome-left-bottom').slick({
+  slidesToShow: 1,
+  slidesToScroll: 5,
+  asNavFor: '.rentHome-left-top',
+  dots: false,
+  centerMode: true,
+  focusOnSelect: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
