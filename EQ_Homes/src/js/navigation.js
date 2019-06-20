@@ -68,5 +68,25 @@ $(".click-sign-in").click(function(){
     $(".sign-in").css("pointer-events","auto");
     $("body").addClass('bg-form');
 })
+$(".sign-in-click").click(function(){
+    $(".sign-in").css("display","flex");
+    $(".sign-in").css("opacity","1");
+    $(".sign-in").css("pointer-events","auto");
+    $(".sign-up").css({
+        opacity: 0,
+        "pointer-events": "none",
+        display: 'none',
+    });
+})
+$(".sign-up-click").click(function(){
+    $(".sign-up").css("display","flex");
+    $(".sign-up").css("opacity","1");
+    $(".sign-up").css("pointer-events","auto");
+    $(".sign-in").css({
+        opacity: 0,
+        "pointer-events": "none",
+        display: 'none',
+    });
+})
 
 

@@ -509,7 +509,7 @@ body, td, th, input, button {
     transition: all .3s ease; }
 
 #banner {
-  background-image: url("../../dist/assets/images/Untitled-5.png");
+  background-image: url("../../../../dist/html/pages/images/Untitled-5.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #ebebeb;
@@ -1197,7 +1197,6 @@ input[type=file] {
   margin: 0;
   box-sizing: border-box; }
   * .footer {
-    font-family: Arial, sans-serif;
     color: black;
     border-top: 1px solid lightgrey;
     margin: 1rem 0;
