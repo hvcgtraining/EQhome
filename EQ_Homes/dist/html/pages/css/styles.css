@@ -542,6 +542,8 @@ body, td, th, input, button {
   border-radius: none !important;
   font-size: 14px !important;
   line-height: 1.5rem !important; }
+  .select-option:not(:last-child) {
+    padding-right: 1rem; }
 
 .select-s {
   height: 4rem !important; }
@@ -838,8 +840,7 @@ body {
         font-size: 1.4rem;
         padding: 5px;
         font-size: 1.1rem;
-        color: #000000;
-        font-weight: bold; }
+        color: #000000; }
       .sidebar-right .sidebar__widget .widget__content .nav-link.active {
         border-top: .3rem solid #68c073;
         background: #fff; }
