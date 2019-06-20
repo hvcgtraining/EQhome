@@ -725,7 +725,8 @@ body {
     background-color: #72c3f1; }
 
 .banner-main {
-  margin: 0rem 0 5rem; }
+  margin: .5rem 0 5rem;
+  padding: 0 .5rem 0 0; }
   .banner-main img {
     width: 100%; }
 

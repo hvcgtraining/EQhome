@@ -1,6 +1,7 @@
 .newFeed{
     background-color: #ebebeb;
     .container{
+        // padding: 0;
         .newFeed_flexBox{
             .newFeed_flexBox_boxCard{
                 padding-top: 1em;
@@ -26,9 +27,9 @@
             }
             .lineBottom{
                 overflow: hidden;
-               .row{
-                   margin: 0;
-               }
+                .row{
+                    margin: 0;
+                }
             }
             .slick{
                 display: flex;

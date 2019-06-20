@@ -165,7 +165,8 @@ body{
 }
 
 .banner-main{
-    margin: 0rem 0 5rem;
+    margin: .5rem 0 5rem;
+    padding: 0 .5rem 0 0;
     img{
         width: 100%;
     }
@@ -189,7 +190,7 @@ body{
         &:first-child{
             margin-top: 0;
         }
-    } 
+    }
 }
 @media only screen and (max-width: 992px) {
     .container{
