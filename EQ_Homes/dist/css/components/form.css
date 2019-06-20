@@ -1,8 +1,10 @@
-.sidebar-right-block .pd0 {
-  padding-bottom: 0 !important; }
+.sidebar-right-block {
+  padding-right: 0; }
+  .sidebar-right-block .pd0 {
+    padding-bottom: 0 !important; }
 
 .sidebar-right {
-  font-family: sans-serif;
+  font-family: 'roboto' !important;
   width: 100%;
   margin: 0 auto;
   padding-left: 0 !important; }
@@ -12,7 +14,7 @@
     margin: .5rem 0;
     font-size: 1.3rem; }
   .sidebar-right .sidebar__widget {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     padding-bottom: 1.8rem;
     transition: all ease .5s;
     background-color: #fff; }
@@ -43,6 +45,8 @@
           text-transform: uppercase;
           color: #6b6969;
           font-weight: 600; }
+          .sidebar-right .sidebar__widget .widget__content .nav-tabs .nav-link:hover {
+            border: none; }
       .sidebar-right .sidebar__widget .widget__content table,
       .sidebar-right .sidebar__widget .widget__content tr,
       .sidebar-right .sidebar__widget .widget__content td {

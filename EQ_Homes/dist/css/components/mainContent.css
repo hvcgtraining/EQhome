@@ -70,7 +70,7 @@ body {
         font-weight: 500; }
       .wrapper-content .box-content .item-content a {
         text-decoration: none;
-        color: #666666;
+        color: #000;
         font-weight: 500; }
         .wrapper-content .box-content .item-content a:hover {
           color: #075cfa; }
@@ -94,6 +94,9 @@ body {
           font-size: 14px;
           width: calc(100% - 20px);
           padding-left: .5rem; }
+
+.slide-content.slick-slider {
+  overflow: hidden; }
 
 .slide-content.slick-initialized.slick-slider.slick-dotted .slick-list {
   margin: 0 -15px; }
@@ -146,16 +149,14 @@ body {
 .banner-left {
   position: absolute;
   top: 0;
-  left: -205px;
-  max-width: 200px !important;
+  left: -120px;
   display: none; }
 
 .banner-right {
   position: absolute;
   top: 0;
-  right: -205px;
-  display: none;
-  max-width: 200px !important; }
+  right: -120px;
+  display: none; }
   .banner-right img {
     display: block;
     margin-bottom: 4rem;
@@ -164,4 +165,20 @@ body {
 
 @media only screen and (min-width: 1500px) {
   .banner-left, .banner-right {
-    display: block; } }
+    max-width: 200px !important;
+    width: 200px !important; }
+  .banner-left {
+    left: -210px; }
+  .banner-right {
+    right: -210px; } }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1040px; }
+  .banner-left, .banner-right {
+    display: block;
+    max-width: 110px; } }
+
+@media only screen and (max-width: 1300px) {
+  .banner-left, .banner-right {
+    display: none !important; } }
