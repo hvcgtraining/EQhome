@@ -840,7 +840,8 @@ body {
         font-size: 1.4rem;
         padding: 5px;
         font-size: 1.1rem;
-        color: #000000; }
+        color: #000000;
+        font-weight: 400 !important; }
       .sidebar-right .sidebar__widget .widget__content .nav-link.active {
         border-top: .3rem solid #68c073;
         background: #fff; }
