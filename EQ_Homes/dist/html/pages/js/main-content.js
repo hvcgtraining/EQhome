@@ -1,22 +1,25 @@
 "use strict";
 
-$('.slide-content').slick({
-  dots: true,
+$('.slide-content-small').slick({
+  dots: false,
   slidesToShow: 3,
   slidesToScroll: 1,
   arrows: false,
-  infinite: false,
+  infinite: true,
   autoplay: true,
-  speed: 2000,
+  // dots: false,
+  speed: 1000,
+  autoplaySpeed: 1000,
+  asNavFor: '.slide-content-big',
   responsive: [{
     breakpoint: 992,
     settings: {
       slidesToShow: 2,
       slidesToScroll: 1,
       arrows: false,
-      infinite: false,
-      autoplay: true,
-      speed: 2000
+      infinite: true,
+      autoplay: true // speed: 2000,
+
     }
   }, {
     breakpoint: 768,
@@ -25,9 +28,9 @@ $('.slide-content').slick({
       slidesToScroll: 1,
       dots: false,
       arrows: false,
-      infinite: false,
-      autoplay: true,
-      speed: 2000
+      infinite: true,
+      autoplay: true // speed: 2000,
+
     }
   }, {
     breakpoint: 568,
@@ -36,9 +39,9 @@ $('.slide-content').slick({
       slidesToScroll: 1,
       dots: false,
       arrows: false,
-      infinite: false,
-      autoplay: true,
-      speed: 2000
+      infinite: true,
+      autoplay: true // speed: 2000,
+
     }
   }, {
     breakpoint: 480,
@@ -47,9 +50,65 @@ $('.slide-content').slick({
       slidesToScroll: 1,
       dots: false,
       arrows: false,
-      infinite: false,
-      autoplay: true,
-      speed: 2000
+      infinite: true,
+      autoplay: true // speed: 2000,
+
+    }
+  }]
+});
+$('.slide-content-big').slick({
+  dots: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows: false,
+  infinite: true,
+  autoplay: true,
+  // dots: false,
+  speed: 1000,
+  autoplaySpeed: 1000,
+  asNavFor: '.slide-content-small',
+  responsive: [{
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: false,
+      infinite: true,
+      autoplay: true // speed: 2000,
+
+    }
+  }, {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: false,
+      infinite: true,
+      autoplay: true // speed: 2000,
+
+    }
+  }, {
+    breakpoint: 568,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: false,
+      infinite: true,
+      autoplay: true // speed: 2000,
+
+    }
+  }, {
+    breakpoint: 480,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: false,
+      infinite: true,
+      autoplay: true // speed: 2000,
+
     }
   }]
 });

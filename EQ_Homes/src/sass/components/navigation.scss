@@ -248,7 +248,7 @@
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        margin:0rem calc(50% - 540px);
+        // margin:0rem calc(50% - 540px);
         padding: 2rem 0;
         background: white;
         .logo__img{
@@ -273,24 +273,27 @@
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        background: rgb(14,49,76);
+        background: #203866;
         display: block;
         .nav__list{
+            max-width: 1040px;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: justify;
                 -ms-flex-pack: justify;
                     justify-content: space-between;
+            flex-wrap: nowrap;
             list-style-type: none;
             margin: 0;
             // border: 1px solid blue;
-            background: rgb(14,49,76);
+            background: #203866;
             width: 100%;
             -webkit-transition: all .3s ease;
             -o-transition: all .3s ease;
             transition: all .3s ease;
             // max-width: 1140px;
+            margin: 0 auto;
             .active{
                 .nav__item{
                     .nav__link{
@@ -300,16 +303,20 @@
             }
             .nav__item{
                 display: inline-block;
-                // border: 1px solid yellow;
-                // width: 11.1%;
                 position: relative;
+                &:hover{
+                    .nav-sub__list{
+                        display: block;
+                    }
+                }
                 .nav__link{
+
                     z-index: 99;
                     display: block;
                     text-decoration: none;
                     color: white;
-                    background: rgb(14,49,76);
-                    padding: 1rem 2rem;
+                    background: #203866;
+                    padding: 1.3rem 2.1rem;
                     text-align: center;
                     -webkit-transition: all .3s ease;
                     -o-transition: all .3s ease;
@@ -324,7 +331,7 @@
                     position: absolute;
                     top: 100%;
                     list-style-type: none;
-                    background: rgb(14,49,76);
+                    background: #203866;
                     // position: relative;
                     display: none;
                     .nav-sub-item{
@@ -333,8 +340,8 @@
                             display: block;
                             text-decoration: none;
                             color: white;
-                            border: 0.5px solid white;
-                            background: rgb(14,49,76);
+                            // border: 0.5px solid white;
+                            background: #203866;
                             padding: 1rem 1rem;
                             min-width: 20rem;
                             text-align: left;
@@ -348,7 +355,7 @@
             &:hover{
                 .active{
                     .nav__link{
-                        background-color:rgb(14,49,76);
+                        background-color:#203866;
                             &:hover{
                                 background: rgb(0,112,158);
                             }

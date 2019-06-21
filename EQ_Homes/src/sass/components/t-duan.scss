@@ -38,9 +38,6 @@
         h2{
             font-weight: normal;
         }
-        a{
-            text-decoration: none;
-        }
         span{
             text-align: left;
         }
@@ -78,12 +75,15 @@
         .active{
             border: none !important;
             background-color: #017aac !important;
+            padding: 1.2rem;
         }
         width: 50%;
     }
 }
 
-
+p{
+    font-size: 1.4rem;
+}
 .btn-srch-nav-tabs{
     padding: 0;
 }
