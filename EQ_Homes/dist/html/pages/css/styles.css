@@ -1203,7 +1203,7 @@ input[type=file] {
   * .footer {
     color: black;
     border-top: 1px solid lightgrey;
-    margin: 1rem 0;
+    padding-top: 1rem;
     background: white; }
     * .footer .container {
       display: flex;
@@ -1232,26 +1232,14 @@ input[type=file] {
         justify-content: space-between;
         padding-bottom: 3rem;
         width: 50%; }
+        * .footer .container .big_div .bd-line {
+          height: 1.5px;
+          background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black)); }
       * .footer .container .big_div_1 {
         width: 20%;
         text-align: center; }
       * .footer .container ul {
         margin-bottom: 0; }
-        * .footer .container ul li:not(:last-child) {
-          position: relative; }
-          * .footer .container ul li:not(:last-child):after {
-            content: "";
-            position: absolute;
-            top: 21px;
-            left: 0rem;
-            right: 0rem;
-            bottom: 0;
-            background: #666666;
-            opacity: 0.5;
-            border-bottom-left-radius: 100%;
-            border-bottom-right-radius: 100%;
-            border-top-left-radius: 100%;
-            border-top-right-radius: 100%; }
     * .footer .footer-block {
       display: flex;
       justify-content: center;
