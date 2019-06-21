@@ -1041,6 +1041,9 @@ input[type=file] {
     color: gray;
     font-size: 1.4rem; }
 
+.bd-light {
+  border: 1px solid #f6f6f6; }
+
 .newFeed {
   background-color: #ebebeb; }
   .newFeed .container .newFeed_flexBox .newFeed_flexBox_boxCard {
@@ -1233,7 +1236,7 @@ input[type=file] {
         padding-bottom: 3rem;
         width: 50%; }
         * .footer .container .big_div .bd-line {
-          height: 1.5px;
+          height: 1px;
           background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black)); }
       * .footer .container .big_div_1 {
         width: 20%;
