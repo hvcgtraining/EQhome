@@ -23,7 +23,7 @@
     input {
         outline: none;
         width: 100%;
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 
     button {
@@ -69,6 +69,6 @@
 
     &::placeholder {
         color: gray;
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 }

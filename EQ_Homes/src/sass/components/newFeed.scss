@@ -7,10 +7,10 @@
                 padding-top: 1em;
                 .title{
                     margin-top: 1rem;
-                    font-size: 1.5rem;
+                    font-size: 1.4rem;
                     color: black;
                     font-weight: bold;
-                    padding: 0;
+                    padding: 0 0 0 .5rem;
                     width: 100%;
                     text-transform: uppercase;
                     border-bottom: 2px solid #00709e;    
@@ -85,9 +85,6 @@
                         .card-date{
                             font-family: monospace;
                         }
-                        .card-content{
-    
-                        }
                     }
                 }
             }   
@@ -95,7 +92,7 @@
     }
 }
 .newFeed{
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     .slick-dots{
         position: absolute;
         bottom: -15px;
@@ -147,9 +144,7 @@
                 .slick{
                     display: flex;
                     .card{
-                   
                         display: inline-block !important;
-
                         .img-block{
                             position: relative;
                             width: 100%;
