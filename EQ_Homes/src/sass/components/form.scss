@@ -166,6 +166,7 @@
         }
     }
 }
+
 // @media (max-width: 1200px){
 //     .sidebar-right{
 //         width: 320px !important;
@@ -188,5 +189,11 @@
     }
     .sidebar-right{
         // max-width: 320px !important;
+    }
+    
+}
+@media (max-width: 768px){
+    .sidebar-right-block{
+        padding-left: 0 !important;
     }
 }

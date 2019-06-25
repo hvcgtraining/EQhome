@@ -1,4 +1,4 @@
-form{
+.form-lh{
     padding: 2rem 6rem;
     h3{
         color: red;
@@ -88,7 +88,7 @@ form{
     }
 }
 @media (max-width: 480px){
-    form{
+    .form-lh{
         padding: 2rem 2rem;
         h3{
             color: red;
@@ -109,12 +109,12 @@ form{
     }
 }
 @media only screen and (max-width:992px){
-    form{
+    .form-lh{
         padding: 2rem 12rem;
     }
 }
 @media only screen and (max-width:768px){
-    form{
+    .form-lh{
         padding: 2rem 4rem;
     }
 }

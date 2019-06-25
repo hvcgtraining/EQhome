@@ -894,6 +894,10 @@ body {
   .banner-left {
     display: none; } }
 
+@media (max-width: 768px) {
+  .sidebar-right-block {
+    padding-left: 0 !important; } }
+
 form {
   padding: 2rem 6rem; }
   form h3 {
@@ -1104,7 +1108,10 @@ input[type=file] {
             color: #00709e; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card p {
           font-size: 1.4rem;
-          color: #666666; }
+          color: #666666;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card .card-title {
           font-weight: bold;
           font-size: 1.8rem; }

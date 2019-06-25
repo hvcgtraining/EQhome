@@ -11,7 +11,7 @@
     justify-content: center;
     z-index: 101;
     width: 450px;
-    form{
+    .form-signup{
         width: 100%;
         padding: 0;
         .form-sign-up,.form-sign-in{
@@ -107,7 +107,7 @@
 @media only screen and (max-width:480px){
     .sign-up{
         width: 100%;
-        form{
+        .form-signup{
             .form-sign-up{
                 h1{
                     font-size: 1.6rem;
