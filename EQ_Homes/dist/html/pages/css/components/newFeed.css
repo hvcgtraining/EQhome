@@ -68,11 +68,14 @@
         .newFeed .container .newFeed_flexBox .slick .card .flied-card .card-date {
           font-family: monospace; }
 
+.pd-2 {
+  padding-bottom: 2rem; }
+
 .newFeed {
   padding-bottom: 2rem; }
   .newFeed .slick-dots {
     position: absolute;
-    bottom: -15px;
+    bottom: -3px;
     left: 0;
     display: block;
     width: 100%;
@@ -88,20 +91,12 @@
       padding: 0;
       cursor: pointer; }
       .newFeed .slick-dots li button {
-        font-size: 0;
-        line-height: 0;
-        display: block;
-        width: 15px;
-        height: 15px;
-        padding: 5px;
-        cursor: pointer;
-        color: transparent;
-        border: 0;
-        outline: none;
-        background: #fff;
-        border-radius: 50%; }
+        border: none;
+        background-color: transparent;
+        padding: 0 0.5rem;
+        outline: none; }
     .newFeed .slick-dots .slick-active button {
-      background-color: #50b7d8; }
+      background-color: #ccc; }
 
 @media screen and (max-width: 480px) {
   .newFeed {

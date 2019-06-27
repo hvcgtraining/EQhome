@@ -94,11 +94,14 @@
         }
     }
 }
+.pd-2{
+    padding-bottom: 2rem;
+}
 .newFeed{
     padding-bottom: 2rem;
     .slick-dots{
         position: absolute;
-        bottom: -15px;
+        bottom: -3px;
         left: 0;
         display: block;
         width: 100%;
@@ -115,23 +118,15 @@
             padding: 0;
             cursor: pointer;
             button{
-                font-size: 0;
-                line-height: 0;
-                display: block;
-                width: 15px;
-                height: 15px;
-                padding: 5px;
-                cursor: pointer;
-                color: transparent;
-                border: 0;
+                border: none;
+                background-color: transparent;
+                padding: 0 0.5rem;
                 outline: none;
-                background: #fff;
-                border-radius: 50%;
             }
         }
         .slick-active{
             button{
-                background-color: #50b7d8;
+                background-color: #ccc;
             }
         }
     }

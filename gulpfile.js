@@ -14,7 +14,7 @@ const jsTask = function () {
         .pipe(babel({
             presets: ['@babel/env']
         }))
-        .pipe(dest('EQ_Homes/dist/js'))
+        .pipe(dest('EQ_Homes/dist/html/pages/js'))
 };
 
 const pugTask = function () {
