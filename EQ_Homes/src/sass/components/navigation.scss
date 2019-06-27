@@ -245,16 +245,17 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        align-items: center;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
         // margin:0rem calc(50% - 540px);
-        padding: 2rem 0;
+        // padding: 2rem 0;
         background: white;
         .logo__img{
             margin-right: 2rem;
             img{
-                width: 100%;
+                width: 85%;
                 height: 100%;
             }
         }
@@ -478,7 +479,7 @@
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
-            padding:2rem 0;
+            // padding:2rem 0;
             margin: 0;
             .logo__img{
                 img{
