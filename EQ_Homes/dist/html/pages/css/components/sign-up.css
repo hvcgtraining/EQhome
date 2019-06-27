@@ -1,4 +1,4 @@
-.sign-up, .sign-in {
+.sign-up {
   opacity: 0;
   pointer-events: none;
   position: absolute;
@@ -10,42 +10,42 @@
   justify-content: center;
   z-index: 101;
   width: 450px; }
-  .sign-up .form-signup, .sign-in .form-signup {
+  .sign-up .form-signup {
     width: 100%;
     padding: 0; }
-    .sign-up .form-signup .form-sign-up, .sign-up .form-signup .form-sign-in, .sign-in .form-signup .form-sign-up, .sign-in .form-signup .form-sign-in {
+    .sign-up .form-signup .form-sign-up {
       background-color: #fff;
       padding: 1.5rem;
       text-align: center; }
-      .sign-up .form-signup .form-sign-up h1, .sign-up .form-signup .form-sign-in h1, .sign-in .form-signup .form-sign-up h1, .sign-in .form-signup .form-sign-in h1 {
+      .sign-up .form-signup .form-sign-up h1 {
         color: #075a9b;
         font-size: 2rem; }
-      .sign-up .form-signup .form-sign-up .form-content, .sign-up .form-signup .form-sign-in .form-content, .sign-in .form-signup .form-sign-up .form-content, .sign-in .form-signup .form-sign-in .form-content {
+      .sign-up .form-signup .form-sign-up .form-content {
         padding: 0 10px; }
-        .sign-up .form-signup .form-sign-up .form-content .item-form, .sign-up .form-signup .form-sign-in .form-content .item-form, .sign-in .form-signup .form-sign-up .form-content .item-form, .sign-in .form-signup .form-sign-in .form-content .item-form {
+        .sign-up .form-signup .form-sign-up .form-content .item-form {
           width: 400px;
           margin-bottom: 1rem;
           display: flex;
           align-items: center;
           font-size: 1.5rem; }
-          .sign-up .form-signup .form-sign-up .form-content .item-form span, .sign-up .form-signup .form-sign-in .form-content .item-form span, .sign-in .form-signup .form-sign-up .form-content .item-form span, .sign-in .form-signup .form-sign-in .form-content .item-form span {
+          .sign-up .form-signup .form-sign-up .form-content .item-form span {
             color: red;
             padding-left: .5rem; }
-          .sign-up .form-signup .form-sign-up .form-content .item-form input, .sign-up .form-signup .form-sign-in .form-content .item-form input, .sign-in .form-signup .form-sign-up .form-content .item-form input, .sign-in .form-signup .form-sign-in .form-content .item-form input {
+          .sign-up .form-signup .form-sign-up .form-content .item-form input {
             width: 100%;
             padding: 1rem 1.5rem;
             border-radius: .5rem;
             border: 1px solid #cccccc;
             color: #cccccc; }
-            .sign-up .form-signup .form-sign-up .form-content .item-form input:focus, .sign-up .form-signup .form-sign-in .form-content .item-form input:focus, .sign-in .form-signup .form-sign-up .form-content .item-form input:focus, .sign-in .form-signup .form-sign-in .form-content .item-form input:focus {
+            .sign-up .form-signup .form-sign-up .form-content .item-form input:focus {
               outline: none; }
-          .sign-up .form-signup .form-sign-up .form-content .item-form .password-50, .sign-up .form-signup .form-sign-in .form-content .item-form .password-50, .sign-in .form-signup .form-sign-up .form-content .item-form .password-50, .sign-in .form-signup .form-sign-in .form-content .item-form .password-50 {
+          .sign-up .form-signup .form-sign-up .form-content .item-form .password-50 {
             width: 50%; }
-          .sign-up .form-signup .form-sign-up .form-content .item-form .password-100, .sign-up .form-signup .form-sign-in .form-content .item-form .password-100, .sign-in .form-signup .form-sign-up .form-content .item-form .password-100, .sign-in .form-signup .form-sign-in .form-content .item-form .password-100 {
+          .sign-up .form-signup .form-sign-up .form-content .item-form .password-100 {
             width: 100%; }
-          .sign-up .form-signup .form-sign-up .form-content .item-form .mg-l, .sign-up .form-signup .form-sign-in .form-content .item-form .mg-l, .sign-in .form-signup .form-sign-up .form-content .item-form .mg-l, .sign-in .form-signup .form-sign-in .form-content .item-form .mg-l {
+          .sign-up .form-signup .form-sign-up .form-content .item-form .mg-l {
             margin-left: 1rem; }
-          .sign-up .form-signup .form-sign-up .form-content .item-form button.btn-sign-up, .sign-up .form-signup .form-sign-in .form-content .item-form button.btn-sign-up, .sign-in .form-signup .form-sign-up .form-content .item-form button.btn-sign-up, .sign-in .form-signup .form-sign-in .form-content .item-form button.btn-sign-up {
+          .sign-up .form-signup .form-sign-up .form-content .item-form button.btn-sign-up {
             width: 100%;
             border: none;
             border-radius: 5px;
@@ -54,19 +54,19 @@
             font-size: 1.6rem;
             color: #fff;
             cursor: pointer; }
-            .sign-up .form-signup .form-sign-up .form-content .item-form button.btn-sign-up:focus, .sign-up .form-signup .form-sign-in .form-content .item-form button.btn-sign-up:focus, .sign-in .form-signup .form-sign-up .form-content .item-form button.btn-sign-up:focus, .sign-in .form-signup .form-sign-in .form-content .item-form button.btn-sign-up:focus {
+            .sign-up .form-signup .form-sign-up .form-content .item-form button.btn-sign-up:focus {
               outline: none;
               border: none;
               background-color: #025374; }
-            .sign-up .form-signup .form-sign-up .form-content .item-form button.btn-sign-up:hover, .sign-up .form-signup .form-sign-in .form-content .item-form button.btn-sign-up:hover, .sign-in .form-signup .form-sign-up .form-content .item-form button.btn-sign-up:hover, .sign-in .form-signup .form-sign-in .form-content .item-form button.btn-sign-up:hover {
+            .sign-up .form-signup .form-sign-up .form-content .item-form button.btn-sign-up:hover {
               background-color: #025374; }
-        .sign-up .form-signup .form-sign-up .form-content .text-form, .sign-up .form-signup .form-sign-in .form-content .text-form, .sign-in .form-signup .form-sign-up .form-content .text-form, .sign-in .form-signup .form-sign-in .form-content .text-form {
+        .sign-up .form-signup .form-sign-up .form-content .text-form {
           font-size: 1.3rem;
           justify-content: center; }
-          .sign-up .form-signup .form-sign-up .form-content .text-form a, .sign-up .form-signup .form-sign-in .form-content .text-form a, .sign-in .form-signup .form-sign-up .form-content .text-form a, .sign-in .form-signup .form-sign-in .form-content .text-form a {
+          .sign-up .form-signup .form-sign-up .form-content .text-form a {
             margin-left: .3rem;
             margin-bottom: 0; }
-          .sign-up .form-signup .form-sign-up .form-content .text-form p, .sign-up .form-signup .form-sign-in .form-content .text-form p, .sign-in .form-signup .form-sign-up .form-content .text-form p, .sign-in .form-signup .form-sign-in .form-content .text-form p {
+          .sign-up .form-signup .form-sign-up .form-content .text-form p {
             margin: 0; }
 
 .bg-form {

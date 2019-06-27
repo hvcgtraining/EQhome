@@ -1,4 +1,4 @@
-.sign-up,.sign-in{
+.sign-up{
     opacity: 0;
     pointer-events: none;
     position: absolute;
@@ -14,7 +14,7 @@
     .form-signup{
         width: 100%;
         padding: 0;
-        .form-sign-up,.form-sign-in{
+        .form-sign-up{
             background-color: #fff;
             padding: 1.5rem;
             text-align: center;
