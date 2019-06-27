@@ -742,7 +742,13 @@ body {
   .box-main-content {
     margin-top: 2rem; }
     .box-main-content:first-child {
-      margin-top: 0; } }
+      margin-top: 0; }
+  .rp-flex-1 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important; }
+  .rp-flex-2 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important; } }
 
 @media only screen and (max-width: 992px) {
   .container {
@@ -784,6 +790,14 @@ body {
 @media only screen and (max-width: 1300px) {
   .banner-left, .banner-right {
     display: none !important; } }
+
+.rp-flex-1 {
+  flex: 0 0 70%;
+  max-width: 70%; }
+
+.rp-flex-2 {
+  flex: 0 0 30%;
+  max-width: 30%; }
 
 .sidebar-right-block {
   padding-right: 0; }
@@ -858,7 +872,7 @@ body {
     background: #00709e;
     color: #fff;
     border-radius: .4rem;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     width: 100%; }
   .sidebar-right .btn:hover {
     background: #0691c9; }

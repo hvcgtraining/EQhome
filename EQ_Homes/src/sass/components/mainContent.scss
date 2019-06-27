@@ -196,6 +196,14 @@ body{
             margin-top: 0;
         }
     }
+    .rp-flex-1{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .rp-flex-2{
+        flex: 0 0 100% !important;
+        max-width: 100% !important; 
+    }
 }
 @media only screen and (max-width: 992px) {
     .container{
@@ -247,6 +255,13 @@ body{
         display: none !important;
     }
 }
-
+.rp-flex-1{
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+.rp-flex-2{
+    flex: 0 0 30%;
+    max-width: 30%; 
+}
 
 
