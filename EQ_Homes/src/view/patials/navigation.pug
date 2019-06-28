@@ -8,15 +8,12 @@
     .menu
         //- .container    
         ul.nav__list
-            .nav-box1.active
+            .active
                 li.nav__item
                     a(href="../../../dist/html/pages/index.html").nav__link Trang chủ
-            .nav-box1
-                li.nav__item
-                    a(href="../../../dist/html/pages/gioithieu.html").nav__link Giới thiệu
 
-
-
+            li.nav__item
+                a(href="../../../dist/html/pages/gioithieu.html").nav__link Giới thiệu
             li.nav__item
                 a(href="../../../dist/html/pages/testcm.html").nav__link Nhà bán đất <i class="fas fa-caret-down"></i>
                 ul.nav-sub__list
@@ -24,8 +21,6 @@
                         a(href="../../../dist/html/pages/testcm.html").nav-sub__link Đất nền
                     li.nav-sub-item
                         a(href="../../../dist/html/pages/nhadatban.html").nav-sub__link Chung cư
-
-                
             li.nav__item
                 a(href="../../../dist/html/pages/duan.html").nav__link Dự án <i class="fas fa-caret-down"></i>
                 ul.nav-sub__list
@@ -33,8 +28,6 @@
                         a(href="../../../dist/html/pages/duan.html").nav-sub__link Đất nền
                     li.nav-sub-item
                         a(href="../../../dist/html/pages/duan.html").nav-sub__link Chung cư
-
-
             li.nav__item
                 a(href="../../../dist/html/pages/chothue.html").nav__link Cho thuê <i class="fas fa-caret-down"></i>
                 ul.nav-sub__list
@@ -44,53 +37,51 @@
                         a(href="../../../dist/html/pages/chothue.html").nav-sub__link Chung cư
                     li.nav-sub-item
                         a(href="../../../dist/html/pages/chothue.html").nav-sub__link Nhà trọ
-            .nav-box1
+            li.nav__item
+                a(href="../../../dist/html/pages/tintuc.html").nav__link Tin tức
+
+            li.nav__item
+                a(href="../../../dist/html/pages/kygui.html").nav__link Ký gửi
+
+            li.nav__item
+                a(href="../../../dist/html/pages/lienhe.html").nav__link Liên Hệ
+
+            li.nav__item
+                a(href="#").nav__link.click-sign-up
+                    <i class="fas fa-sign-out-alt"></i> Đăng Ký
+
                 li.nav__item
-                    a(href="../../../dist/html/pages/tintuc.html").nav__link Tin tức
-            .nav-box1
-                li.nav__item
-                    a(href="../../../dist/html/pages/kygui.html").nav__link Ký gửi
-            .nav-box1
-                li.nav__item
-                    a(href="../../../dist/html/pages/lienhe.html").nav__link Liên Hệ
-            .nav-box1
-                li.nav__item
-                    a(href="#").nav__link.click-sign-up
-                        <i class="fas fa-sign-out-alt"></i> Đăng Ký
-            .nav-box1    
-                    li.nav__item
-                        a(href="#").nav__link.click-sign-in
-                            <i class="fas fa-sign-out-alt"></i> Đăng Nhập
+                    a(href="#").nav__link.click-sign-in
+                        <i class="fas fa-sign-out-alt"></i> Đăng Nhập
             
     .menu-mobile
         .dropdown-nav
             span.menu-toggle <i class="fas fa-bars dropmenu"></i>
                 ul.nav__list
-                    .nav-box1.active
-                        li.nav__item
+                        li.nav__item.active
                             a(href="../../../dist/html/pages/index.html").nav__link Trang chủ
-                    .nav-box1
                         li.nav__item
-                            a(href="../../../dist/html/pages/gioithieu.html").nav__link Giới thiệu
-                    .nav-box1    
+                            a(href="../../../dist/html/pages/gioithieu.html").nav__link Giới thiệu    
                         li.nav__item
-                            a(href="../../../dist/html/pages/testcm.html").nav__link Nhà bán đất <i class="fas fa-caret-down"></i>
+                            a(href="#").nav__link Nhà bán đất <i class="fas fa-caret-down toggle-sub-list"></i>
                             ul.nav-sub__list
+                                li.nav-sub-item
+                                    a(href="../../../dist/html/pages/testcm.html").nav-sub__link Nhà bán đất
                                 li.nav-sub-item
                                     a(href="../../../dist/html/pages/testcm.html").nav-sub__link Đất nền
                                 li.nav-sub-item
-                                    a(href="../../../dist/html/pages/nhadatban.html").nav-sub__link Chung cư
-                    .nav-box1                    
+                                    a(href="../../../dist/html/pages/nhadatban.html").nav-sub__link Chung cư                    
                         li.nav__item
-                            a(href="../../../dist/html/pages/duan.html").nav__link Dự án <i class="fas fa-caret-down"></i>
+                            a(href="#").nav__link Dự án <i class="fas fa-caret-down"></i>
                             ul.nav-sub__list
                                 li.nav-sub-item
                                     a(href="../../../dist/html/pages/duan.html").nav-sub__link Đất nền
                                 li.nav-sub-item
+                                    a(href="../../../dist/html/pages/duan.html").nav-sub__link Đất nền
+                                li.nav-sub-item
                                     a(href="../../../dist/html/pages/duan.html").nav-sub__link Chung cư
-                    .nav-box1
                         li.nav__item
-                            a(href="../../../dist/html/pages/chothue.html").nav__link Cho thuê <i class="fas fa-caret-down"></i>
+                            a(href="#").nav__link Cho thuê <i class="fas fa-caret-down"></i>
                             ul.nav-sub__list
                                 li.nav-sub-item
                                     a(href="../../../dist/html/pages/chothue.html").nav-sub__link Đất nền
@@ -98,21 +89,15 @@
                                     a(href="../../../dist/html/pages/chothue.html").nav-sub__link Chung cư
                                 li.nav-sub-item
                                     a(href="../../../dist/html/pages/chothue.html").nav-sub__link Nhà trọ
-                    .nav-box1
                         li.nav__item
                             a(href="../../../dist/html/pages/tintuc.html").nav__link Tin tức
-                    .nav-box1
                         li.nav__item
                             a(href="../../../dist/html/pages/kygui.html").nav__link Ký gửi
-                    .nav-box1
                         li.nav__item
                             a(href="../../../dist/html/pages/lienhe.html").nav__link Liên Hệ
-                    .nav-box1
                         li.nav__item
                             a(href="#").nav__link.click-sign-up
-                                <i class="fas fa-sign-out-alt"></i> Đăng Ký
-                    .nav-box1    
+                                <i class="fas fa-sign-out-alt"></i> Đăng Ký    
                         li.nav__item
                             a(href="#").nav__link.click-sign-in
-                                <i class="fas fa-sign-out-alt"></i> Đăng Nhập
-    //- h1 ahaha            
+                                <i class="fas fa-sign-out-alt"></i> Đăng Nhập        
