@@ -96,10 +96,24 @@
             h2{
                 color: dodgerblue;
                 font-size: 18px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 20px;
+                -webkit-line-clamp: 5;
+                height: 100px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
             }
             p{
                 font-size: 16px;
                 margin: 15px 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 20px;
+                -webkit-line-clamp: 5;
+                height: 100px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
             }
         }
     }

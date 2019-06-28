@@ -58,15 +58,27 @@
             color: #00709e; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card p {
           font-size: 1.4rem;
-          color: #666666;
-          text-overflow: ellipsis;
-          overflow: hidden;
-          white-space: nowrap; }
+          color: #666666; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card .card-title {
           font-weight: bold;
-          font-size: 1.8rem; }
+          font-size: 1.8rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 20px;
+          -webkit-line-clamp: 2;
+          height: 40px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical; }
         .newFeed .container .newFeed_flexBox .slick .card .flied-card .card-date {
           font-family: monospace; }
+        .newFeed .container .newFeed_flexBox .slick .card .flied-card .card-content {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 20px;
+          -webkit-line-clamp: 3;
+          height: 60px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical; }
 
 .pd-2 {
   padding-bottom: 2rem; }

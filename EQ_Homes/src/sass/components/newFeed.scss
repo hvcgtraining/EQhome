@@ -76,17 +76,30 @@
                         p{
                             font-size: 1.4rem ;
                             color: #666666;
-                            text-overflow: ellipsis;
-                            overflow: hidden;
-                            white-space: nowrap;
                         }
                         
                         .card-title{
                             font-weight: bold;
                             font-size: 1.8rem;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            line-height: 20px;
+                            -webkit-line-clamp: 2;
+                            height: 40px;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
                         }
                         .card-date{
                             font-family: monospace;
+                        }
+                        .card-content{
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            line-height: 20px;
+                            -webkit-line-clamp: 3;
+                            height: 60px;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
                         }
                     }
                 }

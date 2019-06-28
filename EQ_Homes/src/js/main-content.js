@@ -4,7 +4,7 @@ $('.slide-content-small').slick({
     slidesToScroll: 1,
     arrows: false,
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     // dots: false,
     speed: 1000,
     autoplaySpeed: 1000,
@@ -17,7 +17,7 @@ $('.slide-content-small').slick({
             slidesToScroll: 1,
             arrows: false,
             infinite: true,
-            autoplay: true,
+            // autoplay: true,
             // speed: 2000,
           }
         },
@@ -29,7 +29,7 @@ $('.slide-content-small').slick({
             dots: false,
             arrows: false,
             infinite: true,
-            autoplay: true,
+            // autoplay: true,
             // speed: 2000,
           }
         },
@@ -41,7 +41,7 @@ $('.slide-content-small').slick({
             dots: false,
             arrows: false,
             infinite: true,
-            autoplay: true,
+            // autoplay: true,
             // speed: 2000,
           }
         },
@@ -53,7 +53,7 @@ $('.slide-content-small').slick({
                 dots: false,
                 arrows: false,
                 infinite: true,
-                autoplay: true,
+                // autoplay: true,
                 // speed: 2000,
             }
           }
@@ -66,7 +66,7 @@ $('.slide-content-big').slick({
   slidesToScroll: 1,
   arrows: false,
   infinite: true,
-  autoplay: true,
+  // autoplay: true,
   // dots: false,
   speed: 1000,
   autoplaySpeed: 1000,
@@ -79,7 +79,7 @@ $('.slide-content-big').slick({
           slidesToScroll: 1,
           arrows: false,
           infinite: true,
-          autoplay: true,
+          // autoplay: true,
           // speed: 2000,
         }
       },
@@ -91,7 +91,7 @@ $('.slide-content-big').slick({
           dots: false,
           arrows: false,
           infinite: true,
-          autoplay: true,
+          // autoplay: true,
           // speed: 2000,
         }
       },
@@ -103,7 +103,7 @@ $('.slide-content-big').slick({
           dots: false,
           arrows: false,
           infinite: true,
-          autoplay: true,
+          // autoplay: true,
           // speed: 2000,
         }
       },
@@ -115,7 +115,7 @@ $('.slide-content-big').slick({
               dots: false,
               arrows: false,
               infinite: true,
-              autoplay: true,
+              // autoplay: true,
               // speed: 2000,
           }
         }
@@ -139,7 +139,7 @@ $('.rentHome-left-top').slick({
   slidesToScroll: 1,
   arrows: false,
   asNavFor: '..rentHome-left-bottom',
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 2000,
 });
 $('.rentHome-left-bottom').slick({
@@ -149,6 +149,6 @@ $('.rentHome-left-bottom').slick({
   dots: false,
   centerMode: true,
   focusOnSelect: true,
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 2000,
 });
