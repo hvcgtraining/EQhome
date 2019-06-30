@@ -55,7 +55,8 @@ $('body').click(function (e) {
       display: 'none'
     });
   }
-});
+}); //form
+
 $(".click-sign-up").click(function () {
   $(".sign-up").css("display", "flex");
   $(".sign-up").css("opacity", "1");
@@ -87,4 +88,36 @@ $(".sign-up-click").click(function () {
     "pointer-events": "none",
     display: 'none'
   });
-});
+}); //menu-du_an
+
+$('.btn-click-drop').on('click', function (e) {
+  e.stopPropagation();
+  $('.menu-tabs').toggleClass('check');
+}); // $(".btn-click-drop").click(function(e) {
+//     e.preventDefault();
+//     e.stopPropagation();
+//     if($(this).hasClass('check') == false) {
+//         $(".btn-click-drop.check").removeClass('check').find('.menu-tabs').slideUp('swing');
+//         $(this).addClass('check');
+//         $('.menu-tabs').slideDown('swing');
+//     } else {
+//         $(".btn-click-drop.check").find('.menu-tabs').slideUp('swing');
+//         $(this).removeClass('check');
+//         $('.menu-tabs').slideUp('swing');
+//     }
+//     $('.menu-tabs').click(function(e) {
+//         e.preventDefault();
+//         e.stopPropagation();
+//     });
+// })
+// var x = document.querySelector('.btn-click-drop');
+// var y = document.querySelector('.menu-tabs');
+// document.addEventListener('DOMContentLoaded', function(){
+//     x.addEventListener('click', function(){
+//         if(y.style.display == 'none'){
+//             y.classList.add('check')
+//         }else{
+//             y.classList.remove('check');
+//         }
+//     })
+// })
