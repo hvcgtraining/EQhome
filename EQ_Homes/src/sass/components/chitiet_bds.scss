@@ -88,17 +88,29 @@ p{
     padding: 0;
 }
 
+.btn-about{
+    text-align: center;
+    margin-bottom: 1rem;
+    a{
+        color: #666;
+        font-size: 16px;
+        transition: all .3s ease;
+        &:hover{
+            color: #017aac;
+            transition: all .3s ease;
+        }
+    }
+}
 
 .chitiet {
     background: #fff;
     border-radius: none;
-
     a {
-        margin-right: 1rem;
+        margin-right: 1px;
         display: block;
         background: #ccc !important;
         color: #000 !important;
-        padding: 1rem 3rem;
+        padding: 1rem 1.5rem;
         text-decoration: none;
     }
 
@@ -120,6 +132,7 @@ p{
                         display: block;
                         img{
                             width: 100%;
+                            display: block;
                         }
                     }
                 }
@@ -132,5 +145,33 @@ p{
 
     .slick-arrow {
         display: none !important;
+    }
+}
+.icon-contacts{
+    margin-left: 2.5rem;
+    a{
+        margin-right: 10px;
+        font-size: 18px;
+        i{
+            padding: 1px 3px;
+            background-color: #0977a5;
+            border-radius: 2px;
+            transition: all .3s ease;
+            &:hover{
+                box-shadow: 0 0 5px 1px #777;
+                transition: all .3s ease;
+            }
+            &:before{
+                color: white;
+            }
+        }
+        .icon-pt{
+            padding: 1px 2px !important;
+        }
+    }
+}
+@media (max-width: 576px){
+    .icon-contacts{
+        margin-left: 1rem;
     }
 }

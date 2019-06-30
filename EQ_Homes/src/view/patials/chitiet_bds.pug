@@ -16,11 +16,11 @@
     section.chitiet
         ul.nav.nav-tabs
             li.nav-item
-                a.nav-link.active(data-toggle="tab" href="#hinhanh") Hình ảnh
+                a.nav-link.active.border-0(data-toggle="tab" href="#hinhanh") Hình ảnh
             li.nav-item
-                a.nav-link(data-toggle="tab" href="#video") Video
+                a.nav-link.border-0(data-toggle="tab" href="#video") Video
             li.nav-item
-                a.nav-link(data-toggle="tab" href="#map") Map
+                a.nav-link.border-0(data-toggle="tab" href="#map") Map
         .tab-content
             #hinhanh.tab-pane.active
                 .rentHome
@@ -45,7 +45,16 @@
                 td Ba Đình - Hà Nội
             tr
                 td Di động
-                td 0987654321
+                td.row.ml-0 0987654321
+                    span.icon-contacts
+                        a(href="#")
+                            i.fab.fa-skype
+                        a(href="#")
+                            i.fab.fa-facebook-square
+                        a(href="#")
+                            i.icon-pt.far.fa-envelope
+                        a(href="#")
+                            i.fab.fa-viber
             tr
                 td Email
                 td ngtrung1209@gmail.com
@@ -62,7 +71,7 @@
     .img-text-info.row
         .head-img.col-md-6.col-sm-12
             a(href="#")
-                h2 Lorem ipsum dolor sit amet consec tetur adipisicing elit.
+                h2.text-overflow Lorem ipsum dolor sit amet consec tetur adipisicing elit.
             .row
                 img.img-tt.col-4(src="../../html/pages/images/Untitled-6.png", alt="6")
                 .text-info-t.col-8
@@ -77,7 +86,7 @@
                         span.text-if.col-7.pl-4  Quận 5/HCM
         .head-img.col-md-6.col-sm-12
             a(href="#")
-                h2 Lorem ipsum dolor sit amet consec adipisicing elit.
+                h2.text-overflow Lorem ipsum dolor sit amet consec adipisicing elit.
             .row
                 img.img-tt.col-4(src="../../html/pages/images/Untitled-6.png", alt="6")
                 .text-info-t.col-8
@@ -90,3 +99,5 @@
                     .row
                         span.text-if.col-5 Vị trí
                         span.text-if.col-7.pl-4 Quận 5/HCM
+    .btn-about
+        a(href="#") Xem thêm...

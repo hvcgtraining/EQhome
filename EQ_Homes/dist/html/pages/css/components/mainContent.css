@@ -147,9 +147,14 @@ body {
     .slide-content-small .wrapper-content:focus, .slide-content-big .wrapper-content:focus {
       outline: none; } }
 
+@media (max-width: 576px) {
+  .wrapper-content {
+    padding-right: 0; } }
+
 @media only screen and (max-width: 768px) {
   .box-main-content {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    padding: 0; }
     .box-main-content:first-child {
       margin-top: 0; }
   .rp-flex-1 {
@@ -157,7 +162,9 @@ body {
     max-width: 100% !important; }
   .rp-flex-2 {
     flex: 0 0 100% !important;
-    max-width: 100% !important; } }
+    max-width: 100% !important; }
+  .banner-main {
+    padding: 0; } }
 
 @media only screen and (max-width: 992px) {
   .container {

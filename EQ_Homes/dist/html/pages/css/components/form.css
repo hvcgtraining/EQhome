@@ -105,6 +105,8 @@
 
 @media (max-width: 576px) {
   .banner-left {
+    display: none; }
+  .sidebar-right {
     display: none; } }
 
 @media (max-width: 768px) {

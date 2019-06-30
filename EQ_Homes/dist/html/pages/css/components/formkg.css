@@ -19,16 +19,6 @@
     outline: none;
     width: 100%;
     font-size: 1.4rem; }
-  #contact-form button {
-    background: #00709e;
-    color: #fff;
-    border: none;
-    border-radius: 1.5rem;
-    font-size: 1.4rem;
-    margin-top: 1rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 5px 20px; }
   #contact-form .text-area {
     margin-top: 1.5rem;
     padding: 5px; }
@@ -54,3 +44,16 @@ input[type=file] {
 
 .bd-light {
   border: 1px solid #f6f6f6; }
+
+.button {
+  background: #00709e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  outline: none;
+  padding: 7px 20px;
+  width: 100px !important; }

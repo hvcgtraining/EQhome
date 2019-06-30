@@ -51,23 +51,6 @@
         color: white; }
   .form-lh .form-group-lh .button-bt-lh {
     justify-content: center; }
-    .form-lh .form-group-lh .button-bt-lh .send {
-      margin: 0 5px;
-      padding: .6rem 3rem;
-      font-size: 14px;
-      color: #fff;
-      font-weight: 500;
-      border-radius: 5px;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      background-color: #0e314c; }
-      .form-lh .form-group-lh .button-bt-lh .send:focus {
-        outline: none;
-        border: none;
-        background-color: #092031; }
-      .form-lh .form-group-lh .button-bt-lh .send:hover {
-        background-color: #092031; }
 
 @media (max-width: 480px) {
   .form-lh {

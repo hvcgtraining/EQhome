@@ -100,7 +100,14 @@
                 text-overflow: ellipsis;
                 line-height: 20px;
                 -webkit-line-clamp: 5;
-                height: 100px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+            }
+            .text-overflow{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 20px;
+                -webkit-line-clamp: 3 !important;
                 display: -webkit-box;
                 -webkit-box-orient: vertical;
             }
@@ -123,4 +130,11 @@
 }
 .bg-or{
     background: orange;
+}
+
+@media (max-width: 768px){
+    .pt-4{
+        padding-top: 0 !important;
+        border-top: 1px solid #ccc;
+    }
 }

@@ -197,9 +197,17 @@ body{
 
     // }
 }
+
+@media (max-width: 576px){
+    .wrapper-content{
+        padding-right: 0;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .box-main-content{
         margin-top: 2rem;
+        padding: 0;
         &:first-child{
             margin-top: 0;
         }
@@ -211,6 +219,9 @@ body{
     .rp-flex-2{
         flex: 0 0 100% !important;
         max-width: 100% !important; 
+    }
+    .banner-main{
+        padding: 0;
     }
 }
 @media only screen and (max-width: 992px) {

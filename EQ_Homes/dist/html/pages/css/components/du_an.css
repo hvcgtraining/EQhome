@@ -1,0 +1,27 @@
+.color-title {
+  color: #203866; }
+
+.title-info {
+  margin: 1rem 0 2.5rem; }
+
+.tab-content .title-content-box {
+  margin: 1rem 0;
+  border-bottom: 1px solid #ccc; }
+
+.tab-content p {
+  font-size: 1.6rem; }
+
+.tab-content .list-box-content {
+  margin-left: 1.6rem; }
+  .tab-content .list-box-content li {
+    font-size: 1.6rem;
+    list-style-type: square; }
+
+.tab-content .fw-bold {
+  font-weight: bold; }
+
+.tab-content .img-box-tab {
+  border-top: 1px solid #ccc; }
+  .tab-content .img-box-tab img {
+    display: block;
+    width: 100%; }

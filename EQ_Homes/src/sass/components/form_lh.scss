@@ -59,31 +59,10 @@
                     padding: 0 4px;
                     color: white;
                 }
-                
             }
         }
         .button-bt-lh{
             justify-content: center;
-            .send{
-                margin: 0 5px;
-                padding: .6rem 3rem;
-                font-size: 14px;
-                color: #fff;
-                font-weight: 500;
-                border-radius: 5px;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                background-color: #0e314c;
-                &:focus{
-                    outline:none;
-                    border:none;
-                    background-color: #092031;
-                }
-                &:hover{
-                    background-color: #092031;
-                }
-            }
         }
     }
 }
