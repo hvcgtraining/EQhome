@@ -36,4 +36,20 @@ $('.slick.newfeed-right-bottom').slick({
   arrows: false,
   autoplay: false,
   speed: 1000
+}); // chitiet_bds
+
+$('.slider-tabs').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-dots'
+});
+$('.slider-dots').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  asNavFor: '.slider-tabs',
+  dots: false,
+  centerMode: true,
+  focusOnSelect: true
 });
