@@ -1,19 +1,25 @@
-$(".nav__item").click(function (e) {
+$(".btn-showMenu").click(function (e) {
     e.stopPropagation(); // Ngan chan su kien click lan toa ra thang cha
     // Ẩn het toan bo nhung thang khac
-    var navsub = $(this).find(".nav-sub__list");
+    var navsub = $(this).siblings(".nav-sub__list");
+    var next = $(this).next();
 
     if ($(this).hasClass('active') == false) {
-        $(".nav__item.active").removeClass('active').find('.nav-sub__list').slideUp('swing');
+        $(".btn-showMenu.active").removeClass('active').siblings('.nav-sub__list').slideUp('swing');
         $(this).addClass('active');
         navsub.slideDown('swing');
     } else {
-        $(".nav__item.active").removeClass('active').find('.nav-sub__list').slideUp('swing');
+        $(".btn-showMenu.active").removeClass('active').siblings('.nav-sub__list').slideUp('swing');
+        $(this).removeClass('active').css('font-size', '16px')
     }
-
+    
 })
+
+
 $('body').click(function (e) {
-    $(".nav__item.active").removeClass('active').find('.nav-sub__list').slideUp('swing');
+    $(".btn-showMenu.active").removeClass('active').siblings('.nav-sub__list').slideUp('swing');
+    $('.btn-showMenu').removeClass('active').val('+');
+    $('.btn-showMenu').removeClass('active').css('font-size', '16px')
 })
 
 
@@ -99,34 +105,3 @@ $('.btn-click-drop').on('click', function(e) {
     $('.menu-tabs').toggleClass('check')
 });
 
-
-// $(".btn-click-drop").click(function(e) {
-//     e.preventDefault();
-//     e.stopPropagation();
-//     if($(this).hasClass('check') == false) {
-//         $(".btn-click-drop.check").removeClass('check').find('.menu-tabs').slideUp('swing');
-//         $(this).addClass('check');
-//         $('.menu-tabs').slideDown('swing');
-//     } else {
-//         $(".btn-click-drop.check").find('.menu-tabs').slideUp('swing');
-//         $(this).removeClass('check');
-//         $('.menu-tabs').slideUp('swing');
-//     }
-//     $('.menu-tabs').click(function(e) {
-//         e.preventDefault();
-//         e.stopPropagation();
-//     });
-// })
-
-// var x = document.querySelector('.btn-click-drop');
-// var y = document.querySelector('.menu-tabs');
-
-// document.addEventListener('DOMContentLoaded', function(){
-//     x.addEventListener('click', function(){
-//         if(y.style.display == 'none'){
-//             y.classList.add('check')
-//         }else{
-//             y.classList.remove('check');
-//         }
-//     })
-// })

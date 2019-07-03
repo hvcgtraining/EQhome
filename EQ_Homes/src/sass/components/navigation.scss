@@ -78,6 +78,7 @@
                         display: block;
                     }
                 }
+                
                 .nav__link{
 
                     z-index: 99;
@@ -243,6 +244,25 @@
         }
     }
 }
+
+.nav__item{
+    position: relative;
+    .btn-showMenu{
+        position: absolute;
+        right: 5px;
+        top: 6px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        width: 30px;
+        height: 30px;
+        color: white;
+        font-size: 16px;
+        z-index: 2;
+    }
+}
+
+
 @media only screen and (max-width: 1170px) {
     .navigation{
         .header{

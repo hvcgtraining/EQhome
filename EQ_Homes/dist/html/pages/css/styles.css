@@ -1560,6 +1560,21 @@ input[type=file] {
             .navigation .menu-mobile span .nav__list .nav__item .nav-sub__list .nav-sub-item .nav-sub__link:hover {
               background: #214561; }
 
+.nav__item {
+  position: relative; }
+  .nav__item .btn-showMenu {
+    position: absolute;
+    right: 5px;
+    top: 6px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    z-index: 2; }
+
 @media only screen and (max-width: 1170px) {
   .navigation .header {
     display: -webkit-box;
